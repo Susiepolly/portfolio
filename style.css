@@ -1,1 +1,121 @@
+body {
+  background-image: url("img/background.jpg");
+  font-family: 'Oswald', sans-serif;
+}
 
+.wrapper {
+  max-width: 80em;
+  background-color: #C9F2EE;
+  border-style: solid;
+  border-color: #C9F2EE;
+  border-width: 10px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 80em;
+  margin: auto;
+  padding: 1em 2em;
+  text-align: center;S
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#profile {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70em;
+  margin: auto;
+}
+
+#about-text {
+  font-size: 20px;
+  padding: 0 5em 0 0;
+}
+
+#skills {
+  width: 25em;
+}
+
+p a {
+  text-decoration: none;
+  color: #0D0D0D;
+  font-weight: bold;
+}
+
+p a:hover {
+  font-size: 22px;
+}
+
+.project-card {
+  max-width: 70em;
+  background-color: #F2F2F2;
+  border-style: solid;
+  border-color: #0D0D0D;
+  border-width: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 2em auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.project-card:hover {
+  border-color: #F2E5A2;
+}
+
+.project-about {
+  width: 50em;
+  padding: 0 5em 0 2em;
+}
+
+.project-image {
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.project-image:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.05);
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  padding: 1em 5em;
+  border-radius: 20px;
+}
+
+footer h2 {
+  font-size: 30px;
+  grid-column: 1 / span 2;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer img {
+  width: 5em;
+  padding: 1em;
+}
+
+#icons {
+  justify-self: end;
+}

@@ -4,20 +4,92 @@
   <head>
     <meta charset="utf-8">
     <title>Susan Pembroke Wilson</title>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
-      <h2>Susan Pembroke Wilson</h2>
-      <h1>Web developer, arts administrator and swing dancer</h1>
-    </div>
+    <div class="wrapper">
+    <header id="header">
+      <img id="profile" src="img/profile.jpg" alt="Susan Pembroke Wilson">
+      <div>
+        <h2>Susan Pembroke Wilson</h2>
+        <h1>Web developer, arts administrator and swing dancer</h1>
+      </div>
+    </header>
     <div id="about">
-      <p>I am a web developer with a background in the performing arts. I have degrees in theatre and arts management, I have over 5 years experience in performing arts venues and over 7 years experience in resourcing and scheduling.</p>
-      <p>For more information on my dance experience please visit <a href="nickandsusie.dance">NickandSusie.dance</a>       
-      </p>
+      <div id="about-text">
+        <p>I am a web developer with a background in the performing arts. I have degrees in theatre and arts management, I have over 5 years experience in performing arts venues and over 7 years experience in resourcing and scheduling.</p>
+        <p>For more information on my dance experience please visit <a href="nickandsusie.dance">NickandSusie.dance</a>
+        </p>
+      </div>
+      <div id="skills">
+        <p>I am proficient in:</p>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS 3 including Flexbox and CSS Grid</li>
+          <li>Javascript (ES6)</li>
+          <li>Node.js</li>
+          <li>React</li>
+          <li>PostgreSQL</li>
+        </ul>
+      </div>
     </div>
-    <div id="projects">
     </div>
+    <main id="projects">
+      <div class="project-card">
+        <div class="project-about">
+          <h3>Face-Brain</h3>
+          <p>Face-brain is an app that allows users to register or signin, input an image using a url and detect the face in the image. I built this app using React, Node.js and PostgreSQL and used a face-detecting API.</p>
+        </div>
+        <a href="https://face-brain.herokuapp.com/"><img src="img/facebrain.png" class="project-image"></a>
+      </div>
+      <div class="project-card">
+        <div class="project-about">
+          <h3>Daily App</h3>
+          <p>Daily App, built in React, uses APIs to fetch current weather data and a fact about this day in history. Background and colours will change depending on the weather.</p>
+        </div>
+        <a href="https://susiepolly.github.io/daily-app/"><img src="img/facebrain.png" class="project-image"></a>
+      </div>
+      <div class="project-card">
+        <div class="project-about">
+          <h3>Monster Friends</h3>
+          <p>Monster Friends allows you to search for your monster friends contact card. Built using React.</p>
+        </div>
+        <a href="https://susiepolly.github.io/Monster-Friends/"><img src="img/monsterfriends.png" class="project-image"></a>
+      </div>
+      <div class="project-card">
+        <div class="project-about">
+          <h3>Nick and Susie</h3>
+          <p>Nick and Susie is a promotional website for swing dance teachers and performers. It was built using HTML5 and CSS3.</p>
+        </div>
+        <a href="http://nickandsusie.dance/"><img src="img/nickandsusie.png" class="project-image"></a>
+      </div>
+      <div class="project-card">
+        <div class="project-about">
+          <h3>Shopping List</h3>
+          <p>This shopping list lets you build your own shopping list, cross out items you have already purchased and delete items you no longer need. It was built using HTML5, CSS3 and Javascript.</p>
+        </div>
+        <a href="https://susiepolly.github.io/ShoppingList/"><img src="img/shoppinglist.png" class="project-image"></a>
+      </div>
+      <div class="project-card">
+        <div class="project-about">
+          <h3>Background Generator</h3>
+          <p>This page randomly generates background gradients for use on other website. Built using HTML5 CSS3 and Javascript.</p>
+        </div>
+        <a href="https://susiepolly.github.io/Background-Gradient/"><img src="img/backgroundgenerator.png" class="project-image"></a>
+      </div>
+    </main>
     <footer>
+      <h2>Contact Me</h2>
+      <div>
+        <p>ph: +44 7428 515 037</p>
+        <p>email: susiepolly@gmail.com</p>
+      </div>
+      <div id="icons">
+        <a href="https://github.com/Susiepolly"><img src="img/githublogo.png" alt="git hub icon"></a>
+        <a href="https://www.linkedin.com/in/susanpembrokewilson/"><img src="img/linkedin.png" alt="linkedin icon"></a>
+      </div>
     </footer>
   </body>
 </html>

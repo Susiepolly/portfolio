@@ -5,9 +5,9 @@ body {
 
 .wrapper {
   max-width: 80em;
-  background-color: #C9F2EE;
+  background-color: #F2BBBF;
   border-style: solid;
-  border-color: #C9F2EE;
+  border-color: #0D0D0D;
   border-width: 10px;
   margin: auto;
   border-radius: 20px;
@@ -44,12 +44,12 @@ h2 {
 
 #about-text {
   font-size: 20px;
-  padding: 0 5em 0 0;
+  /* padding: 0 5em 0 0; */
 }
 
-#skills {
+/* #skills {
   width: 25em;
-}
+} */
 
 p a {
   text-decoration: none;
@@ -94,6 +94,8 @@ p a:hover {
 }
 
 footer {
+  max-width: 80em;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #0D0D0D;

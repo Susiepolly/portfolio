@@ -140,7 +140,7 @@ footer {
   width: 90vw;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #0D0D0D;
   color: #F2F2F2;
   padding: 2vw;
@@ -149,20 +149,24 @@ footer {
 
 footer h2 {
   font-size: 30px;
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 4;
   line-height: 30px;
+}
+
+#contacts-foot {
+  grid-column: 1 / span 3;
 }
 
 .contact-item-foot {
   display: flex;
   align-items: center;
-  padding: 0;
+  padding: 3px;
   font-size: 20px;
   color: #F2F2F2;
 }
 
 .contact-item-foot .contact-icon {
-  margin: 0;
+  margin: 0 2px;
 }
 
 footer img {
@@ -171,6 +175,7 @@ footer img {
 }
 
 #icons {
+  grid-column: 4 / span 1;
   justify-self: end;
 }
 
@@ -272,4 +277,8 @@ footer img {
     width: 100px;
     padding: 0 10px;
   }
+}
+
+@media only screen and (min-width: 850px) {
+
 }

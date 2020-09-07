@@ -68,18 +68,6 @@ h2 {
 
 #about {
   display: none;
-  /* grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: space-around;
-  margin: auto;
-  padding: 0 5vw; */
-}
-/*
-#about-text {
-  font-size: 20px;
-  grid-column: 1 / span 2;
-  /* padding: 0 5em 0 0; */
-}
 
 #proficiencies {
   grid-column: 1 / span 1;
@@ -112,10 +100,6 @@ p a:hover {
   margin: 2em auto;
   padding: 5vw;
   border-radius: 20px;
-}
-
-.project-card:hover {
-  border-color: #F2E5A2;
 }
 
 .project-about {

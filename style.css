@@ -114,9 +114,6 @@ p a:hover {
   border-radius: 20px;
 }
 
-.project-card:hover {
-  border-color: #F2E5A2;
-}
 
 .project-about {
   padding: 0 5px 0 5px;
